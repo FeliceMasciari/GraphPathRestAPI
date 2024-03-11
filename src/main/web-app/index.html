@@ -1,0 +1,167 @@
+<html>
+<body>
+<!-- Include the library -->
+<script src="./js/lib/ogma_2.js"></script>
+<script src="./js/lib/jquery-3.7.1.min.js"></script>
+<script src="./js/common.js"></script>
+<script src="./js/lib/lodash.js"></script>
+<!-- This div is the DOM element containing the graph. The style ensures that it takes the whole screen. -->
+<div id="graph-container" style="position: absolute; left: 0; top: 0; bottom: 0; right: 0;"></div>
+
+<script>
+    // Which namespace to chose types from
+    var dboNamespace = "http://dbpedia.org/ontology"
+
+    // One of factforge saved queries enriched with types and rdf rank
+    var peopleAndOrganizationsRelatedToGoogle = `
+         # F03: People and organizations related to Google
+         # - picks up people related through any type of relationships
+         # - picks up parent and child organizations
+         # - benefits from inference over transitive dbo:parent
+         # - RDFRank makes it easy to see the “top suspects” in a list of 94 entities
+         # Change Google with any organization, e.g. type dbr:Hew and Ctrl-Space to auto-complete
+
+         PREFIX dbo: <http://dbpedia.org/ontology/>
+         PREFIX rank: <http://www.ontotext.com/owlim/RDFRank#>
+         PREFIX dbr: <http://dbpedia.org/resource/>
+         PREFIX sesame: <http://www.openrdf.org/schema/sesame#>
+         CONSTRUCT {
+             dbr:Google ?p2 ?related_entity .
+             dbr:Google sesame:directType ?type .
+             ?related_entity ?p1 dbr:Google .
+             ?related_entity sesame:directType ?entity_type .
+             ?related_entity rank:hasRDFRank ?related_entity_rank .
+             dbr:Google dbr:hasChildOrParentOrg ?related_organization .
+             ?related_organization sesame:directType ?org_type .
+             ?related_organization rank:hasRDFRank ?related_org_rank .
+         }
+         WHERE {
+             BIND( dbr:Google AS ?entity )
+             {
+               ?related_entity a dbo:Person; ?p1 ?entity .
+             FILTER(?p1 NOT IN (dbo:wikiPageWikiLink)) .
+               ?related_entity sesame:directType ?entity_type .
+               ?related_entity rank:hasRDFRank ?related_entity_rank .
+             }
+             UNION
+             {
+               ?related_entity a dbo:Person .
+               ?entity ?p2 ?related_entity .
+               FILTER(?p2 NOT IN (dbo:wikiPageWikiLink)) .
+               ?related_entity sesame:directType ?entity_type .
+               ?related_entity rank:hasRDFRank ?related_entity_rank .
+             }
+             UNION
+             {
+               ?related_organization a dbo:Organisation ; (dbo:parent | ^dbo:parent) ?entity .
+               ?related_organization sesame:directType ?org_type .
+               ?related_organization rank:hasRDFRank ?related_org_rank .
+             } UNION {
+               dbr:Google sesame:directType ?type .
+             }
+         }
+         `
+
+    var postData = {
+        query: peopleAndOrganizationsRelatedToGoogle,
+        infer: true,
+        sameAs: true,
+        limit: 1000,
+        offset: 0
+    }
+
+
+    $.ajax({
+        url: graphDBRepoLocation,
+        type: 'GET',
+        data: postData,
+        headers: {
+            'Accept': 'application/rdf+json'
+        },
+        success: function (data) {
+
+            // Converts rdf+json to a simple list of triples
+            var triples = convertData(data);
+
+            // Get all nodes uris
+            var linkTriples = _.filter(triples, function (triple) {
+                return triple[1] !== rankPredicate && triple[1] !== typePredicate
+            });
+            var nodesUris = _.uniq(_.union(_.map(linkTriples, function (t) {
+                return t[0]
+            }), _.map(linkTriples, function (t) {
+                return t[2]
+            })));
+
+            // Get triples for rdf rank
+            var ranks = _.filter(triples, function (triple) {
+                return triple[1] === rankPredicate
+            });
+
+            // Get triples for types
+            var typeTriples = _.filter(triples, function (triple) {
+                return triple[1] === typePredicate && triple[2].indexOf(dboNamespace) === 0
+            });
+
+            // Create node objects
+            var nodes = _.map(nodesUris, function (nUri) {
+                var rank = _.find(ranks, function (rankTriple) {
+                    return rankTriple[0] === nUri && rankTriple[1] === rankPredicate
+                });
+                var type = _.find(typeTriples, function (typeTriple) {
+                    return typeTriple[0] === nUri && typeTriple[1] === typePredicate
+                });
+                return {
+                    id: nUri,
+                    text: getLocalName(nUri) + (type != undefined ? " (" + getLocalName(type[2]) + ")" : ""),
+                    size: ((rank != undefined) ? rank[2] * 100 : 5),
+                    color: ((type != undefined) ? stringToColour(type[2]) : "#eceeef"),
+                }
+            });
+
+            // Create edge objects
+            var edges = _.map(linkTriples, function (triple, index) {
+                return {
+                    id: index,
+                    source: triple[0],
+                    target: triple[2],
+                    text: getLocalName(triple[1]),
+                    shape: 'arrow',
+                    size: 0.2
+                }
+            });
+
+            // Initialize ogma with the data
+            var ogma = new Ogma({
+                container: 'graph-container',
+                settings: {
+                    texts: {
+                        nodeFontSize: 20,
+                        edgeFontSize: 15,
+                        nodeSizeThreshold: 0
+                    }
+                },
+                graph: {
+                    nodes: nodes,
+                    edges: edges
+                }
+            });
+
+            ogma.locate.center();
+
+            ogma.layouts.start('forceLink', {}, {
+                // sync parameters
+                onEnd: endLayout
+            });
+
+            function endLayout() {
+                ogma.locate.center({
+                    easing: 'linear',
+                    duration: 300
+                });
+            }
+        }
+    })
+</script>
+</body>
+</html>

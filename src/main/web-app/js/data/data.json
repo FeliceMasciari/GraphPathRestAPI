@@ -1,0 +1,4682 @@
+{
+  "http://dbpedia.org/resource/API.AI" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/AdMob" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Adscape" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Ajay_Vidyasagar" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Alphabet_Inc." : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.07",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Andrew_Morton_(computer_programmer)" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Andy_Bechtolsheim" : {
+    "http://dbpedia.org/ontology/knownFor" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isDescribedBy" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.02",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Ann_Mather" : {
+    "http://dbpedia.org/ontology/board" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/boards" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Apigee" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/BebaPay" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Bernardo_Hernández_González" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/ontology/occupation" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P106" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Bill_Maris" : {
+    "http://dbpedia.org/ontology/knownFor" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isDescribedBy" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Blaise_Agüera_y_Arcas" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Boston_Dynamics" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.02",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Brian_Reid_(computer_scientist)" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/BufferBox" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Calico_(company)" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.02",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/CapitalG" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Christopher_Poole" : {
+    "http://dbpedia.org/ontology/occupation" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.02",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P106" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Corinna_Cortes" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Craig_H._Barratt" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Craig_Silverstein" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Crashlytics" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.02",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Dan_Quine" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.02",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/David_F._Bacon" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/David_G._Lowe" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/DeepMind" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.03",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Dennis_Hwang" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Diane_Greene" : {
+    "http://dbpedia.org/ontology/occupation" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/occupation" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P106" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Dilan_Jayawardane" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Dodgeball_(service)" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/DoubleClick" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.04",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Douglas_Merrill" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Dropcam" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.02",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Ed_Chi" : {
+    "http://dbpedia.org/property/workInstitutions" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Ed_Parsons" : {
+    "http://dbpedia.org/ontology/occupation" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.02",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P106" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Elie_Bursztein" : {
+    "http://dbpedia.org/property/workInstitutions" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.02",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Ellen_Spertus" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Fernanda_Viégas" : {
+    "http://dbpedia.org/property/workInstitution" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Firebase" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.02",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Flutter_(company)" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/GV_(company)" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.02",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Geoffrey_Hinton" : {
+    "http://dbpedia.org/property/workInstitution" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Google" : {
+    "http://dbpedia.org/ontology/keyPerson" : [
+      {
+        "value" : "http://dbpedia.org/resource/Larry_Page",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Sergey_Brin",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Sundar_Pichai",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/founders" : [
+      {
+        "value" : "http://dbpedia.org/resource/Larry_Page",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Sergey_Brin",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/keyPeople" : [
+      {
+        "value" : "http://dbpedia.org/resource/Larry_Page",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Sundar_Pichai",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/resource/hasChildOrParentOrg" : [
+      {
+        "value" : "http://dbpedia.org/resource/API.AI",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/AdMob",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Adscape",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Alphabet_Inc.",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Apigee",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/BebaPay",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Boston_Dynamics",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/BufferBox",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Calico_(company)",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/CapitalG",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Crashlytics",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/DeepMind",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Dodgeball_(service)",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/DoubleClick",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Dropcam",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Firebase",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Flutter_(company)",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/GV_(company)",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Google_China",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Google_Contributor",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Google_Energy",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Google_Fiber",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Google_Store",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Google_Trends",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Green_Throttle_Games",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/ITA_Software",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Jigsaw_(company)",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Kaggle",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Lift_Labs",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Makani_Power",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Meebo",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Meka_Robotics",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Motorola_Mobility",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Neotonic_Software",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Nest_Labs",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Nik_Software",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/On2_Technologies",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Orkut",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Owlchemy_Labs",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Picnik",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Pyra_Labs",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Redwood_Robotics",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Slide.com",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Stackdriver",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Verily_Life_Sciences",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Waymo",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/X_(company)",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/YouTube",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#sameSettingAs" : [
+      {
+        "value" : "http://dbpedia.org/resource/Larry_Page",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Sergey_Brin",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://dbpedia.org/resource/Sundar_Pichai",
+        "type" : "uri"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Google_China" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.03",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Google_Contributor" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Google_Energy" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Google_Fiber" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.09",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Google_Store" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Google_Trends" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.03",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Green_Throttle_Games" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Hal_Varian" : {
+    "http://dbpedia.org/ontology/institution" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/institution" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Economist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q188094",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Howard_Gobioff" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/ITA_Software" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Ian_Hickson" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/organization" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Jacques_Rivette" : {
+    "http://dbpedia.org/property/quote" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.04",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/James_Gosling" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.02",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/James_J._Kuffner_Jr." : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Jared_Cohen" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Jeff_Dean_(computer_scientist)" : {
+    "http://dbpedia.org/property/workInstitution" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Jens_Eilstrup_Rasmussen" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Jeremy_Allison" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Jigsaw_(company)" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/John_Platt_(computer_scientist)" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Juliet_Ehimuan" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Junio_Hamano" : {
+    "http://dbpedia.org/property/practiceName" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Engineer",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q81096",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Kaggle" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Ken_Thompson" : {
+    "http://dbpedia.org/property/workInstitution" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.03",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Krishna_Bharat" : {
+    "http://dbpedia.org/ontology/occupation" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P106" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Larry_Heck" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Larry_Page" : {
+    "http://dbpedia.org/ontology/knownFor" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isDescribedBy" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.10",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Lars_Rasmussen_(software_developer)" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Lift_Labs" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Maha_Abouelenein" : {
+    "http://dbpedia.org/ontology/occupation" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P106" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Makani_Power" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Manu_Cornet" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Writer",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q36180",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Marc_Levoy" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Mark_Davis_(Unicode)" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Mark_DeLoura" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Martin_M._Wattenberg" : {
+    "http://dbpedia.org/property/workInstitution" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Martín_Abadi" : {
+    "http://dbpedia.org/property/workInstitutions" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Matt_Brittin" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Matthew_Garrett" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Matías_Duarte" : {
+    "http://dbpedia.org/ontology/occupation" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P106" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Meebo" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.02",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Meka_Robotics" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Michael_Burrows" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Mike_Harrington" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Motorola_Mobility" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.06",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Neotonic_Software" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Nest_Labs" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.06",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Nik_Software" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Omid_Kordestani" : {
+    "http://dbpedia.org/ontology/knownFor" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isDescribedBy" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/On2_Technologies" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.02",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Orkut" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.05",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Owlchemy_Labs" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Paul_Buchheit" : {
+    "http://dbpedia.org/ontology/knownFor" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isDescribedBy" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Paul_Irish" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Paul_Otellini" : {
+    "http://dbpedia.org/ontology/board" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/boards" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Peiter_Zatko" : {
+    "http://dbpedia.org/property/workInstitutions" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Peter_J._Weinberger" : {
+    "http://dbpedia.org/property/workInstitution" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Peter_Norvig" : {
+    "http://dbpedia.org/property/workInstitution" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.02",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Picnik" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Prabhakar_Raghavan" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Preston_McAfee" : {
+    "http://dbpedia.org/property/workInstitutions" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Pyra_Labs" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Ramakrishnan_Srikant" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Ramanathan_V._Guha" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Ray_Kurzweil" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.06",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Redwood_Robotics" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Reed_Morse" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Regina_E._Dugan" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Rich_Gossweiler" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.02",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Richard_Gingras" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Rob_Pike" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Robert_Kyncl" : {
+    "http://dbpedia.org/property/workInstitutions" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Robert_McCool" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Salar_Kamangar" : {
+    "http://dbpedia.org/ontology/occupation" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P106" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Scott_James_Remnant" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Sebastian_Schaffert" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Sergey_Brin" : {
+    "http://dbpedia.org/ontology/knownFor" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isDescribedBy" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.07",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Slide.com" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Stackdriver" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Stephanie_Hannon" : {
+    "http://dbpedia.org/ontology/occupation" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P106" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Steven_Woods" : {
+    "http://dbpedia.org/ontology/occupation" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P106" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Sundar_Pichai" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/ontology/occupation" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.03",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P106" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Suresh_Venkatasubramanian" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Terry_Winograd" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Theodore_Ts'o" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Tiffany_Montague" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Tim_Bray" : {
+    "http://dbpedia.org/ontology/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://dbpedia.org/property/employer" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.02",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P108" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Udi_Manber" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Urs_Hölzle" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Verily_Life_Sciences" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Vic_Gundotra" : {
+    "http://dbpedia.org/ontology/occupation" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ],
+    "http://www.wikidata.org/entity/P106" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Vikas_Gupta" : {
+    "http://dbpedia.org/ontology/knownFor" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isDescribedBy" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.01",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://schema.org/Person",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q5",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Vint_Cerf" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.05",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Waymo" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.03",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/Wietse_Venema" : {
+    "http://dbpedia.org/property/workplaces" : [
+      {
+        "value" : "http://dbpedia.org/resource/Google",
+        "type" : "uri"
+      }
+    ],
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.00",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Scientist",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.wikidata.org/entity/Q901",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/X_(company)" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.02",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      }
+    ]
+  },
+  "http://dbpedia.org/resource/YouTube" : {
+    "http://www.ontotext.com/owlim/RDFRank#hasRDFRank" : [
+      {
+        "value" : "0.31",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.openrdf.org/schema/sesame#directType" : [
+      {
+        "value" : "http://dbpedia.org/ontology/Company",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "type" : "uri"
+      }
+    ]
+  }
+}
