@@ -14,6 +14,7 @@ public class AppConfig {
 
 
     private String specificQueryPrefix;
+    private String specificQueryResourcePrefix;
 
 
     public String getRepositoryServerHost() {
@@ -46,5 +47,13 @@ public class AppConfig {
 
     public void setSpecificQueryPrefix(String specificQueryPrefix) {
         this.specificQueryPrefix = specificQueryPrefix;
+    }
+
+    public String getSpecificQueryResourcePrefix() {
+        return specificQueryResourcePrefix;
+    }
+
+    public void setSpecificQueryResourcePrefix(String specificQueryResourcePrefix) {
+        this.specificQueryResourcePrefix = specificQueryResourcePrefix;
     }
 }

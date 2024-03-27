@@ -4,15 +4,13 @@ public class QueryUtils {
     private static String queryPrefixes =   "PREFIX path: <http://www.ontotext.com/path#>\n" +
             "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
             "PREFIX dbr: <http://dbpedia.org/resource/>\n" +
-            "PREFIX : <http://lexica/mylexicon#>";
-    private static String prefixSRC ="";
-    private static String prefixDST ="";
+            "$othersPrefixes$";
 
-    public static String queryShortestPathO = queryPrefixes + "\n\n"+
+    public static String queryShortestPath = queryPrefixes + "\n\n"+
             "SELECT ?start ?end ?index ?path\n" +
             "WHERE {\n" +
             "    VALUES (?src ?dst) {\n" +
-            "        ( "+prefixSRC+":sourceNodeParam "+prefixDST+":destNodeParam )\n" +
+            "        ( $prefixRES$$sourceNodeParam$ $prefixRES$$destNodeParam$ )\n" +
             "    }\n" +
             "    SERVICE <http://www.ontotext.com/path#search> {\n" +
             "        <urn:path> path:findPath path:shortestPath ;\n" +
@@ -22,9 +20,6 @@ public class QueryUtils {
             "                   path:startNode ?start;\n" +
             "                   path:endNode ?end;\n" +
             "                   path:resultBindingIndex ?index .\n" +
-            "        SERVICE <urn:path> {\n" +
-            "            ?start !dbp:keyPerson ?end\n" +
-            "        }\n" +
             "    }\n" +
             "}";
 
@@ -32,7 +27,7 @@ public class QueryUtils {
             "SELECT ?edge ?index ?path\n" +
             "WHERE {\n" +
             "    VALUES (?dst) {\n" +
-            "        ( :destNodeParam )\n" +
+            "        ( $prefixRES$$destNodeParam$ )\n" +
             "    }\n" +
             "    SERVICE <http://www.ontotext.com/path#search> {\n" +
             "        <urn:path> path:findPath path:allPaths ;\n" +
@@ -45,11 +40,28 @@ public class QueryUtils {
             "   }\n" +
             "}";
 
+    public static String queryAllPathsBetween2Res = queryPrefixes + "\n\n"+
+            "SELECT ?edge ?index ?path\n" +
+            "WHERE {\n" +
+            "    VALUES (?src ?dst) {\n" +
+            "        ( $prefixRES$$sourceNodeParam$ $prefixRES$$destNodeParam$ )\n" +
+            "    }\n" +
+            "    SERVICE <http://www.ontotext.com/path#search> {\n" +
+            "        <urn:path> path:findPath path:allPaths ;\n" +
+            "                   path:sourceNode ?src ;\n" +
+            "                   path:destinationNode ?dst ;\n" +
+            "                   path:pathIndex ?path ;\n" +
+            "                   path:minPathLength 3 ;\n" +
+            "                   path:resultBinding ?edge ;\n" +
+            "                   path:resultBindingIndex ?index .\n" +
+            "   }\n" +
+            "}";
+
     public static String queryShortestDistance = queryPrefixes + "\n\n"+
             "SELECT ?dist\n" +
             "WHERE {\n" +
             "    VALUES (?src ?dst) {\n" +
-            "        ( dbr:Marvel_Studios \"1973-06-02\"^^xsd:date )\n" +
+            "        ( $prefixRES$$sourceNodeParam$ $prefixRES$$destNodeParam$ )\n" +
             "    }\n" +
             "    SERVICE <http://www.ontotext.com/path#search> {\n" +
             "        <urn:path> path:findPath path:distance ;\n" +
@@ -63,7 +75,7 @@ public class QueryUtils {
             "SELECT ?edge ?index ?path\n" +
             "WHERE {\n" +
             "    VALUES (?src) {\n" +
-            "        (dbr:destNodeParam)\n" +
+            "        ($prefixRES$$sourceNodeParam$)\n" +
             "    }\n" +
             "    SERVICE <http://www.ontotext.com/path#search> {\n" +
             "        <urn:path> path:findPath path:cycle ;\n" +
@@ -78,7 +90,7 @@ public class QueryUtils {
             "SELECT ?edge ?index ?path\n" +
             "WHERE {\n" +
             "    VALUES (?src ?dst) {\n" +
-            "        ( dbr:sourceNodeParam dbr:destNodeParam )\n" +
+            "        ( $prefixRES$$sourceNodeParam$ $prefixRES$$destNodeParam$ )\n" +
             "    }\n" +
             "    SERVICE path:search {\n" +
             "        <urn:path> path:findPath path:allPaths ;\n" +
@@ -86,48 +98,10 @@ public class QueryUtils {
             "                   path:destinationNode ?dst ;\n" +
             "                   path:resultBinding ?edge ;\n" +
             "                   path:pathIndex ?path ;\n" +
-            "                   path:maxPathLength 4 ;\n" +
+            "                   path:maxPathLength 2 ;\n" +
             "                   path:bidirectional true ;\n" +
             "                   path:resultBindingIndex ?index ;\n" +
             "    }\n" +
             "}";
 
-
-    public static String queryShortestPath = queryPrefixes + "\n\n"+
-            "SELECT ?pathIndex ?edgeIndex ?edge\n" +
-            "WHERE {\n" +
-            "    VALUES (?src ?dst) {\n" +
-            "        ( dbr:sourceNodeParam dbr:destNodeParam )\n" +
-            "    }\n" +
-            "    SERVICE path:search {\n" +
-            "        [] path:findPath path:shortestPath ;\n" +
-            "           path:sourceNode ?src ;\n" +
-            "           path:destinationNode ?dst ;\n" +
-            "           path:pathIndex ?pathIndex ;\n" +
-            "           path:resultBindingIndex ?edgeIndex ;\n" +
-            "           path:resultBinding ?edge ;\n" +
-            "           .\n" +
-            "    }\n" +
-            "}";
-
-    public static String queryShortestPathNS =
-            "PREFIX path: <http://www.ontotext.com/path#>\n" +
-                    "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
-                    "PREFIX dbr: <http://dbpedia.org/resource/>\n" +
-                    "\n" +
-                    "SELECT ?pathIndex ?edgeIndex ?edge\n" +
-                    "WHERE {\n" +
-                    "    VALUES (?src ?dst) {\n" +
-                    "        ( dbr:sourceNodeParam dbr:destNodeParam )\n" +
-                    "    }\n" +
-                    "    SERVICE path:search {\n" +
-                    "        [] path:findPath path:shortestPath ;\n" +
-                    "           path:sourceNode ?src ;\n" +
-                    "           path:destinationNode ?dst ;\n" +
-                    "           path:pathIndex ?pathIndex ;\n" +
-                    "           path:resultBindingIndex ?edgeIndex ;\n" +
-                    "           path:resultBinding ?edge ;\n" +
-                    "           .\n" +
-                    "    }\n" +
-                    "}";
 }

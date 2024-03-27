@@ -8,17 +8,13 @@ import java.util.List;
 @Component
 public interface GraphPathRestService {
 
-    String getName();
-
-    List<Object> getTuple();
-
-    String getAll();
-
     String shortestPath(String src, String dst);
 
     String allPaths(String node);
 
-    String shortestDistance();
+    String allPathsBetween2Res(String src, String dst);
+
+    String shortestDistance(String src, String dst);
 
     String cyclicPath(String node);
 

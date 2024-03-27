@@ -26,58 +26,9 @@ import java.nio.file.Files;
 public class GraphPathRestController {
 
     @Autowired
-    GraphPathRestServiceImpl uNtService;
-
-    @Value("classpath:data.json")
-    Resource resourceFile;
-
-    @GetMapping("/test")
-    @CrossOrigin(origins = "*")
-    public ResponseEntity<Object> getTest () throws ParseException, IOException {
-        String result = "errore";
+    GraphPathRestServiceImpl graphPathRestService;
 
 
-        if(resourceFile != null) {
-            //result = resourceFile.getDescription();
-            result = new String(Files.readAllBytes(resourceFile.getFile().toPath()));
-        }
-
-        if(result == null || result.equals("")) {
-            File resource = new ClassPathResource("data.json").getFile();
-            result = new String(Files.readAllBytes(resource.toPath()));
-        }
-
-        return new ResponseEntity<Object>(result, HttpStatus.OK);
-    }
-    /*
-        @GetMapping("/all")
-        public ResponseEntity<Object> getAll () throws ParseException {
-            //List<Employee> footballers = employeeService.getAllEmployee();
-
-            JSONParser js = new JSONParser();
-            return new ResponseEntity<Object>(js.parse(uNtService.getAll()), HttpStatus.OK);
-        }
-
-
-        @GetMapping("/shortestPath2")
-        public ResponseEntity<Object> shortestPath2 () throws ParseException {
-                //List<Employee> footballers = employeeService.getAllEmployee();
-           // dbr:The_Black_Panther_\(1977_film\) dbr:Stan_Lee
-                JSONParser js = new JSONParser();
-                return new ResponseEntity<Object>(js.parse(uNtService.shortestPath("The_Black_Panther_\\(1977_film\\)","Stan_Lee")), HttpStatus.OK);
-         }
-
-        @GetMapping("/shortestPath/{src}/{dst}")
-        @ResponseBody
-        public ResponseEntity<Object> shortestPath (@PathVariable String src, @PathVariable String dst) throws ParseException {
-            //List<Employee> footballers = employeeService.getAllEmployee();
-            // dbr:The_Black_Panther_\(1977_film\) dbr:Stan_Lee
-            JSONParser js = new JSONParser();
-            //return new ResponseEntity<Object>(js.parse(uNtService.shortestPath(src,dst)), HttpStatus.OK);
-            return new ResponseEntity<Object>(uNtService.shortestPath(src,dst), HttpStatus.OK);
-        }
-
-    */
     @PostMapping(
             value ="/shortestPath",
             consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE},
@@ -89,7 +40,7 @@ public class GraphPathRestController {
         // dbr:The_Black_Panther_\(1977_film\) dbr:Stan_Lee
         JSONParser js = new JSONParser();
         //return new ResponseEntity<Object>(js.parse(uNtService.shortestPath(src,dst)), HttpStatus.OK);
-        return new ResponseEntity<Object>(uNtService.shortestPath(request.getSrcNode(),request.getDstNode()), HttpStatus.OK);
+        return new ResponseEntity<Object>(graphPathRestService.shortestPath(request.getSrcNode(),request.getDstNode()), HttpStatus.OK);
     }
 
 
@@ -101,19 +52,20 @@ public class GraphPathRestController {
     @ApiOperation(value = "All resources and their respective paths that can reach node", notes = "All paths")
     public ResponseEntity<Object> allPaths (@Valid @RequestBody GraphPathSearchRequest request){
 //@ApiParam(name = "GraphPathSearchRequest", value = "GraphPathSearchRequest -> DstNode", required =  true)
-        return new ResponseEntity<Object>(uNtService.allPaths(request.getDstNode()), HttpStatus.OK);
+        return new ResponseEntity<Object>(graphPathRestService.allPaths(request.getDstNode()), HttpStatus.OK);
     }
-   /* @PostMapping(
-            value ="/shortestDistance",
+
+    @PostMapping(
+            value ="/allPathsBetween2Res",
             consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE},
             produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
     @ResponseBody
-    @ApiOperation(value = "Distance of the shortest path between two resources")
-    public ResponseEntity<Object> shortestDistance (@ApiParam(name = "GraphPathSearchRequest", value = "GraphPathSearchRequest -> SrcNode and DstNode", required =  true) @RequestBody GraphPathSearchRequest request){
+    @ApiOperation(value = "all paths between source node and destination node", notes = "all paths between source node and destination node")
+    public ResponseEntity<Object> allPathsBetween2Res(@RequestBody GraphPathSearchRequest request) throws ParseException {
 
-        return new ResponseEntity<Object>(uNtService.allPaths(request.getDstNode()), HttpStatus.OK);
+        return new ResponseEntity<Object>(graphPathRestService.allPathsBetween2Res(request.getSrcNode(),request.getDstNode()), HttpStatus.OK);
     }
-*/
+
     @PostMapping(
             value ="/cyclicPath",
             consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE},
@@ -122,7 +74,7 @@ public class GraphPathRestController {
     @ApiOperation(value = "Cyclic path search")
     public ResponseEntity<Object> cyclicPath ( @ApiParam(name = "GraphPathSearchRequest", value = "GraphPathSearchRequest -> DstNode", required =  true) @RequestBody GraphPathSearchRequest request){
 
-        return new ResponseEntity<Object>(uNtService.cyclicPath(request.getDstNode()), HttpStatus.OK);
+        return new ResponseEntity<Object>(graphPathRestService.cyclicPath(request.getDstNode()), HttpStatus.OK);
     }
 
     @PostMapping(
@@ -133,7 +85,19 @@ public class GraphPathRestController {
     @ApiOperation(value = "Shortest bidirectional path between source node and destination node")
     public ResponseEntity<Object> bidirectionalSearch ( @ApiParam(name = "GraphPathSearchRequest", value = "GraphPathSearchRequest -> SrcNode and DstNode", required =  true) @RequestBody GraphPathSearchRequest request){
 
-        return new ResponseEntity<Object>(uNtService.bidirectionalSearch(request.getSrcNode(), request.getDstNode()), HttpStatus.OK);
+        return new ResponseEntity<Object>(graphPathRestService.bidirectionalSearch(request.getSrcNode(), request.getDstNode()), HttpStatus.OK);
+    }
+
+
+    @PostMapping(
+            value ="/shortestDistance",
+            consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE},
+            produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
+    @ResponseBody
+    @ApiOperation(value = "Shortest distance between source node and destination node", notes = "shortest distance between source node and destination node")
+    public ResponseEntity<Object> shortestDistance(@RequestBody GraphPathSearchRequest request) throws ParseException {
+
+        return new ResponseEntity<Object>(graphPathRestService.shortestDistance(request.getSrcNode(),request.getDstNode()), HttpStatus.OK);
     }
 
 }
